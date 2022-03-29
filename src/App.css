@@ -1,0 +1,107 @@
+/* APP */
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  min-height: 70vh;
+  min-width: 40vw;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+/* Header Component */
+.Header {
+  padding: 10px;
+}
+.heading {
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+/* Main card */
+
+/* Input Container */
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.InputBox {
+  padding: 10px;
+  border-radius: 10px;
+  width: 20vw;
+}
+.btn-add {
+  width: 24%;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: mediumseagreen;
+  color: white;
+}
+
+/* List Component */
+.list-container {
+  border-top: 3px solid mediumseagreen;
+}
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  font-size: 18px;
+}
+.task-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.task-title {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  align-items: center;
+  align-self: start;
+}
+.task-status {
+  align-self: start;
+  font-size: 14px;
+  font-style: italic;
+  color: mediumseagreen;
+}
+.btn-div {
+  display: flex;
+  justify-content: space-around;
+}
+.btn-delete {
+  background-color: mediumseagreen;
+  color: white;
+  width: 200%;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  align-self: auto;
+}
+.btn-done {
+  width: 100%;
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: inherit;
+  border: none;
+  padding: 5px 12px;
+}
+
+/* Footer */
+.Footer {
+  padding: 10px;
+  color: aliceblue;
+  font-size: 15px;
+}
